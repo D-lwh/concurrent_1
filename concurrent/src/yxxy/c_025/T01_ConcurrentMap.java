@@ -32,6 +32,9 @@ public class T01_ConcurrentMap {
 			});
 		}
 		System.out.println("nnnnnnnnnnnnnnnn");
+		System.out.println("nnnnnnnnnnnnnnnn");
+		System.out.println("nnnnnnnnnnnnnnnn");
+		System.out.println("nnnnnnnnnnnnnnnn");
 		Arrays.asList(ths).forEach(t->t.start());
 		try {
 			latch.await();
