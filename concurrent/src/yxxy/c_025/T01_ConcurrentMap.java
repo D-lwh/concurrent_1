@@ -31,7 +31,7 @@ public class T01_ConcurrentMap {
 				latch.countDown();
 			});
 		}
-		
+		System.out.println("nnnnnnnnnnnnnnnn");
 		Arrays.asList(ths).forEach(t->t.start());
 		try {
 			latch.await();
